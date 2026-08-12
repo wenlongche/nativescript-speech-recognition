@@ -57,6 +57,7 @@ export class SpeechRecognition implements SpeechRecognitionApi {
   }
 
   startListening(options: SpeechRecognitionOptions): Promise<boolean> {
+    console.log(">> startListening");
     return new Promise((resolve, reject) => {
 
       let onPermissionGranted = () => {
