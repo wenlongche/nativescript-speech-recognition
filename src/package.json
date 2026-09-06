@@ -1,6 +1,6 @@
 {
   "name": "@wenlongche/nativescript-speech-recognition",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Fork of nativescript-speech-recognition - Speech to text plugin, leveraging iOS and Android's built-in recognition engines.",
   "main": "speech-recognition",
   "typings": "index.d.ts",
