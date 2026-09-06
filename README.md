@@ -1,5 +1,7 @@
 # NativeScript Speech Recognition
 
+> **Fork Notice:** This is a fork of [nativescript-speech-recognition](https://github.com/EddyVerbruggen/nativescript-speech-recognition) by [Eddy Verbruggen](https://github.com/EddyVerbruggen). This fork includes additional improvements and enhancements. See [PR #51](https://github.com/EddyVerbruggen/nativescript-speech-recognition/pull/51) for details on the changes.
+
 [![Build Status][build-status]][build-url]
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][npm-url]
@@ -24,12 +26,12 @@ From the command prompt go to your app's root folder and execute:
 
 ### NativeScript 7+:
 ```bash
-ns plugin add nativescript-speech-recognition
+ns plugin add @wenlongche/nativescript-speech-recognition
 ```
 
-### NativeScript < 7:
-```
-tns plugin add nativescript-speech-recognition@1.5.0
+### Original package (NativeScript 7+):
+```bash
+ns plugin add nativescript-speech-recognition
 ```
 
 ## Testing
@@ -153,3 +155,11 @@ This plugin is part of the [plugin showcase app](https://github.com/EddyVerbrugg
 
 ### Angular video tutorial
 Rather watch a video? Check out [this tutorial on YouTube](https://www.youtube.com/watch?v=C5i_EYjfuTE).
+
+## Credits
+
+This project is based on [nativescript-speech-recognition](https://github.com/EddyVerbruggen/nativescript-speech-recognition) by [Eddy Verbruggen](https://github.com/EddyVerbruggen), licensed under the MIT License.
+
+Original contributors:
+- [Eddy Verbruggen](https://github.com/EddyVerbruggen) (original author)
+- [Brad Martin](https://github.com/bradmartin)

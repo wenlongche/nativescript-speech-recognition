@@ -1,7 +1,7 @@
 {
-  "name": "nativescript-speech-recognition",
+  "name": "@wenlongche/nativescript-speech-recognition",
   "version": "2.0.0",
-  "description": "Speech to text plugin, leveraging iOS and Android's built-in recognition engines.",
+  "description": "Fork of nativescript-speech-recognition - Speech to text plugin, leveraging iOS and Android's built-in recognition engines.",
   "main": "speech-recognition",
   "typings": "index.d.ts",
   "nativescript": {
@@ -17,7 +17,7 @@
     "test.android": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build android && tns test android --justlaunch",
     "test.ios": "npm i && npm run tsc && npm run tslint && cd ../demo && tns build ios && tns test ios --justlaunch",
     "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\"",
-    "plugin.link": "npm link && cd ../demo && npm link nativescript-speech-recognition && cd ../src",
+    "plugin.link": "npm link && cd ../demo && npm link @wenlongche/nativescript-speech-recognition && cd ../src",
     "plugin.tscwatch": "npm run tsc -- -w",
     "demo.ios": "npm run build && cd ../demo && tns run ios",
     "demo.android": "npm run build && cd ../demo && tns run android",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EddyVerbruggen/nativescript-speech-recognition.git"
+    "url": "https://github.com/wenlongche/nativescript-speech-recognition.git"
   },
   "keywords": [
     "NativeScript",
@@ -44,10 +44,15 @@
     "Voice"
   ],
   "author": {
-    "name": "Eddy Verbruggen",
-    "email": "eddyverbruggen@gmail.com"
+    "name": "Wenlong Che",
+    "email": "wenlong.che@gmail.com"
   },
   "contributors": [
+    {
+      "name": "Eddy Verbruggen",
+      "email": "eddyverbruggen@gmail.com",
+      "url": "https://github.com/EddyVerbruggen"
+    },
     {
       "name": "Brad Martin",
       "email": "bradwaynemartin@gmail.com",
@@ -55,10 +60,10 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/EddyVerbruggen/nativescript-speech-recognition/issues"
+    "url": "https://github.com/wenlongche/nativescript-speech-recognition/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/EddyVerbruggen/nativescript-speech-recognition",
+  "homepage": "https://github.com/wenlongche/nativescript-speech-recognition",
   "readmeFilename": "README.md",
   "devDependencies": {
     "@nativescript/core": "~7.0.5",
