@@ -1,5 +1,21 @@
 # NativeScript Speech Recognition
 
+> ## ⚠️ DEPRECATED - Use Original Package
+> 
+> **This fork has been merged into the original package.**
+> 
+> 🎉 The `listenContinuously` feature from this fork has been merged into the official package!
+> 
+> **Please use the original package instead:**
+> ```bash
+> npm install nativescript-speech-recognition
+> ```
+> 
+> Original repository: https://github.com/EddyVerbruggen/nativescript-speech-recognition  
+> Original npm package: https://www.npmjs.com/package/nativescript-speech-recognition
+> 
+> ---
+
 > **Fork Notice:** This is a fork of [nativescript-speech-recognition](https://github.com/EddyVerbruggen/nativescript-speech-recognition) by [Eddy Verbruggen](https://github.com/EddyVerbruggen). This fork includes additional improvements and enhancements. See [PR #51](https://github.com/EddyVerbruggen/nativescript-speech-recognition/pull/51) for details on the changes.
 
 [![Build Status][build-status]][build-url]
